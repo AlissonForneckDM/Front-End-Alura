@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(204, 204, 204);
+}
+strong{
+    color: red;
+}
+.itens{
+    font-style:italic;
+}
+h2{
+    text-align: center;
+}
+ul{ 
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+}
+.beneficios{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
