@@ -1,24 +1,29 @@
-header{
-    background-color: #BBBBBB;
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
 }
-h1{
-    display: inline-block;
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
-nav{
+
+nav {
     position: absolute;
+    top: 110px;
+    right: 0;
 }
-nav li{
+
+nav li {
     display: inline;
     margin: 0 0 0 15px;
 }
+
 nav a {
     text-transform: uppercase;
-    color: black;
-    font-weight:bold ;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
     text-decoration: none;
-    font-size: 25px;
-    
-}
-li > a:hover{
-    font-size: 30px;
 }
