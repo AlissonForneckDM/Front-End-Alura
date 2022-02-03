@@ -59,3 +59,22 @@ nav a:hover{
     color: #C78C19;
     text-decoration: underline;
 }
+.produtos li:hover{
+    border-color: #C78C19;
+}
+.produtos li:active{
+    border-color: green;
+}
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+footer{
+    text-align: center;
+    background-image: url(imagens/bg.jpg);
+    
+    padding: 40px 0;
+}
+.Copyright{
+    color: white;
+    font-size: 13px;
+}
