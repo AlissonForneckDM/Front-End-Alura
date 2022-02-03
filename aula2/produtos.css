@@ -4,6 +4,21 @@ header{
 h1{
     display: inline-block;
 }
-ul{
-    display: inline-block;
+nav{
+    position: absolute;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight:bold ;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+li > a:hover{
+    font-size: 30px;
 }
