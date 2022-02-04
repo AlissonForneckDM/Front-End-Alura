@@ -90,9 +90,12 @@ form label, form p{
     margin-bottom: 10px;
     display: block;
 }
-form input, textarea{
+.input-padrao, textarea{
     margin-bottom: 20px;
     display: block;
     padding: 10px 25px;
     width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
 }
