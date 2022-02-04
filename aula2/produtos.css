@@ -85,3 +85,14 @@ main {
 form{
     margin: 40px 0;
 }
+form label{
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+form input{
+    margin-bottom: 20px;
+    display: block;
+    padding: 10px 25px;
+    width: 50%;
+}
