@@ -24,37 +24,37 @@
     <main>
         <form action="">
             <label for="nomeSobrenome">Nome e sobrenome</label>
-            <input type="text" name="" id="nomeSobrenome" class="input-padrao">
+            <input type="text" name="" id="nomeSobrenome" class="input-padrao" required>
 
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" class="input-padrao">
+            <input type="email" name="email" id="email" class="input-padrao" required placeholder="seumail@dominio.com">
             
             <label for="telefone">Telefone</label>
-            <input type="text" name="telefone" id="telefone" class="input-padrao">
+            <input type="tel" name="telefone" id="telefone" class="input-padrao" required placeholder="(XX) XX - XXXXXXXXXX">
 
             <label for="mensagem">Mensagem</label>
-            <textarea name="mensagem" id="mensagem" cols="70" rows="10"></textarea>
+            <textarea name="mensagem" id="mensagem" cols="70" rows="10" required></textarea >
 
-            <section>
-                <p>Como prefere nosso contato?</p>
+            <fieldset>
+                <legend>Como prefere nosso contato?</legend>
                 <label for="radio-email"><input type="radio" name="contato" id="radio-email" value="radio-email">E-mail</label>
                 
                 <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone" value="radio-telefone">Telefone</label>
                 
-                <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" value="radio-whatsapp">WhastApp</label>
+                <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" value="radio-whatsapp" checked>WhastApp</label>
                 
-            </section>    
+            </fieldset>    
 
-            <section>
-                <p>Qual horário prefere ser atendido? </p>
+            <fieldset>
+                <legend>Qual horário prefere ser atendido? </legend>
                 <select name="" id="">
                     <option value="">Manhã</option>
                     <option value="">Tarde</option>
                     <option value="">Noite</option>
                 </select>
-            </section>
+            </fieldset>
 
-            <label><input type="checkbox" class="checkbox">Gostaria de receber nossas novidades por email?</label>
+            <label><input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
             <input type="submit" value="Enviar">
         </form>
     </main>
