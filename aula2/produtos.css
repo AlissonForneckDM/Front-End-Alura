@@ -158,3 +158,27 @@ td,th{
     width: 150px;
     float: left;
 }
+.mapa{
+    padding: 3em 0;
+}
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+}
